@@ -3,7 +3,7 @@
 :root{
     --isa:black;
     --dudu:white;
-    --luka:orange;
+    --luka:rgb(0, 255, 221);
     --ygor:blue;
     
 } 
@@ -52,7 +52,7 @@ section#login {
 
 section#login>div#imagem {
     display: block;
-    background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+    background: #4b3c5d url(/assets/Card-01-old.FgZOyGfn_Z1TqFa4.webp) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
@@ -134,7 +134,7 @@ form>a.botao {
     height: 40%;
     padding-top: 7px;
     margin-top: 7px;
-    background-color: #c9a3f8;
+    background-color: #b0a3f8;
     color: black;
     border: 1px solid #21203f;
     border-radius: 3px;
@@ -155,7 +155,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #c89377, #21203f);
+        background-image: linear-gradient(to top, #77b8c8, #21203f);
     }
 
     section#login {
@@ -167,7 +167,7 @@ form>a.botao>span {
         float: left;
         width: 30%;
         height: 100%;
-        background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+        background: #4b3c5d url(/assets/free\ fire.jpg)) no-repeat;
         background-size: cover;
         background-position: right bottom;
 
@@ -184,7 +184,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 993px) {
     body {
-        background-image: linear-gradient(to top, #c89377, #21203f);
+        background-image: linear-gradient(to top, #77c5c8, #21203f);
     }
 
     section#login {
@@ -197,7 +197,7 @@ form>a.botao>span {
         float: right;
         width: 50%;
         height: 100%;
-        background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+        background: #4b3c5d url(/assets/free\ fire.jpg) no-repeat;
         background-size: cover;
         background-position: right center;
         /*  */
