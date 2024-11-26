@@ -22,7 +22,7 @@
 
 body,
 html {
-    background-color: #e7bfa5;
+    background-color: #3f6d79;
     height: 100vh;
     width: 100vw;
 }
@@ -43,7 +43,7 @@ section#login {
     width: 250px;
     height: 515px;
     border-radius: 17px;
-    box-shadow: 0px 0px 10px #21203f;
+    box-shadow: 0px 0px 10px #3f3c7c;
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -52,7 +52,7 @@ section#login {
 
 section#login>div#imagem {
     display: block;
-    background: #4b3c5d url(/assets/Card-01-old.FgZOyGfn_Z1TqFa4.webp) no-repeat;
+    background: #4b3c5d url(/assets/freefire\ 4k.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
@@ -84,7 +84,7 @@ div.campo>span {
 }
 
 div.campo>input {
-    background-color: #c9a3f8;
+    background-color: #eceff0;
     font-size: 1em;
     padding: 3px;
     width: calc(100% - 44px);
@@ -103,7 +103,7 @@ form>input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #21203f;
+    background-color: #4845a3;
     color: whitesmoke;
     border: none;
     cursor: pointer;
@@ -111,9 +111,9 @@ form>input[type=submit] {
 }
 
 form>div.campo {
-    background-color: #4b3c5d;
+    background-color: #9ea1a1;
     display: block;
-    border: solid 2px #4b3c5d;
+    border: solid 2px #989c9c;
     width: 100%;
     height: 40px;
     border-radius: 7px;
@@ -122,7 +122,7 @@ form>div.campo {
 }
 
 form>input[type=submit]:hover {
-    background-color: #4b3c5d;
+    background-color: #199aac;
 
 }
 
@@ -134,7 +134,7 @@ form>a.botao {
     height: 40%;
     padding-top: 7px;
     margin-top: 7px;
-    background-color: #b0a3f8;
+    background-color: #7ab9c4;
     color: black;
     border: 1px solid #21203f;
     border-radius: 3px;
@@ -150,6 +150,12 @@ form>a.botao:hover {
 form>a.botao>span {
     font-size: 0.8em;
 
+}
+
+#bv{
+    color: #eceff0;
+    font-size: 1.8em;
+    
 }
 
 
